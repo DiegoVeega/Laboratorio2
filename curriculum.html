@@ -7,6 +7,58 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1 align="center" >Curriculum Vitae</h1>
+    </header>
+    <section>
+        <article>
+            <fieldset>
+                <legend>Personal Data.</legend>
+                <label for="dui">DUI: </label>
+                <INPUT type="text" id="dui" name="dui" placeholder="000000001" ></INPUT>
+                <label for="name">Firt Name: </label>
+                <input type="text" name="name" id="name" placeholder="Firtsname">
+                <label for="last">Last Name: </label>
+                <input type="text" id="last" name="name">
+                <label for="gender">Gender: </label>
+                <input type="radio" id="gender" name="gender" value="M">
+                <input type="radio" id="gender" name="gender" value="F">
+                <BR><BR>
+                <label for="contact" >Contact Number: </label>
+                <input type="text" pattern="[0-9]" >
+                <label for="bir">Birthday: </label>
+                <input type="date">
+                <label for="civil">Civil Status: </label>
+                <select name="civil" id="civil">
+                    <option>Casado/a.</option>
+                    <option>Divirciado/a.</option>
+                    <option>ES complicado.</option>
+                </select>
+                <label for="image">Image</label>
+                <input type="file" id="image" name="image" value="Examinar.">
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Work Expirience.</legend>
+                <textarea name="work" id="work" cols="200" rows="10">Work Experience.</textarea>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Academic Training.</legend>
+                <textarea name="aca" id="aca" cols="200" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend> Futher Training. </legend>
+                <fieldset>Programing Languages.
+                    <input type="checkbox" name="check" id="check">Java
+                    <input type="checkbox" name="check" id="check">C#
+                    <input type="checkbox" name="check" id="check">Phyton
+                    <input type="checkbox" name="check" id="check">C++
+                    <input type="checkbox" name="check" id="check">Ruby
+                </fieldset>
+
+            </fieldset>
+        </article>
+    </section>
 </body>
 </html>
